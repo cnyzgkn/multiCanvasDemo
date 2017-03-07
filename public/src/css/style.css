@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, 
+body,
+#FullContainer
+{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+#FullContainer{
+    display: table;
+    margin:0 auto;
+    background: white;
+}
+
+#FullContainer > div{
+    display: table-row;
+}
+
+#TopPanel, #BottomPanel{
+    background: white;
+    border-style: solid solid solid solid;
+}
+
+#TopPanel .btn-group{
+    margin-right:20px;
+    border-right:1px solid;
+}
+
+#TopPanel .form-group{
+    margin-right:20px;
+}
+
+#TopPanel button{
+    margin-right:10px;
+}
+
+#BottomPanel{
+    height: 80px;
+    bottom: 0; 
+}
+
+#BottomPanel .nav-tabs{
+    display: inline-block;
+}
+
+#wrap{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#LeftPanel{
+    width: 80px;
+    display:table-cell;
+    background: white;
+    height: 100%;
+    border-style: solid solid solid solid;
+}
+
+#LeftPanel button{
+    margin-bottom:15px;
+    width: 75px;
+}
+
+#LeftPanel .btn-group-vertical{
+    margin-top:10px;
+    margin-bottom:10px;
+    border-bottom:1px solid;
+}
+
+#ViewsDiv{
+    display:table-cell;
+}
+
+#innerViewsDiv{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#viewContainer{
+    float:left;
+    display:inline;
+    width: 100%;
+    height: 100%;
+}
+
+#viewContainer .dropdown{
+    position: absolute;
+    top: 0%; 
+    left: 0%; 
+    margin: 10px;
+}
+
+#viewContainer .viewFullScreen{
+    position: absolute;
+    bottom: 0%; 
+    right: 0%; 
+    margin: 10px;
+}
+
+#resizerX{
+    background: red; 
+}
+
+#resizerY{
+    background: blue; 
+}
+
+.view{
+    background: white;
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+#familyButtonDiv{
+    width: 1px;
+    display:table-cell;
+    vertical-align: middle;
+}
+
+#FamilyInfo{
+    width: 15px;
+    height: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: purple;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+/*
+#FamilyInfo{
+    position: absolute;
+    top: 50%; 
+    left: 98%; 
+    right: 0%; 
+    bottom: 50%;
+    width: 35px;
+    height: 60px;   
+    background-color:purple;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+*/
+
+#FamilyPanel{
+    width: 250px;
+    height: 100%;
+    display:table-cell;
+    border-style: solid solid solid solid;
+    border-width: 1px;
+    overflow: auto;
+    padding: 0px;
+}
+
+#FamilyPanel .panel-body{
+    display: block;
+}
+
+#familyTabs{
+    width: 100%;
+    height: 100%;
+}
+
+#FamilyPanel .btn-group{
+    margin-bottom:20px;
+    border-bottom:1px solid;
+}
+
+#familyTabContainer{
+    position: static;
+    width: 100%;
+    height: 100%;
+}
+
+#ProjectPanel{
+    position: absolute;
+    top: 50%; 
+    left: 0%; 
+    right: 0%; 
+    bottom: 50%;
+    background-color:white;
+    width: 250px;
+    height: 820px;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: auto;
+}
+
+#ProjectPanel #projectGrid{
+    overflow: auto;
+    margin-right:0px;
+}
+
+#ProjectPanel > .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#projectBottomPanel{
+    position: absolute;
+    top: 92%;
+}
+
+#projectPanelContainer{
+    position: absolute;
+}
+
+
